@@ -14,7 +14,7 @@
     "xstate": "^4.9.1"
   },
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "node src/index.js",
     "dev": "nodemon --inspect src/index.js"
   },
   "devDependencies": {
