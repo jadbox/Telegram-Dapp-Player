@@ -1,0 +1,26 @@
+{
+  "name": "oneupmud",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Jonathan Dunlap",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.40.0",
+    "xstate": "^4.9.1"
+  },
+  "scripts": {
+    "start": "nodemon --inspect src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": "1500"
+  }
+}
