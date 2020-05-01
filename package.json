@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "node src/index.js",
+    "worker": "node src/index.js",
     "dev": "nodemon --inspect src/index.js"
   },
   "devDependencies": {
